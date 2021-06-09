@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mityngi SA</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>Miasto</th>
+                <th>Dzień tygodnia</th>
+                <th>Godzina</th>
+                <th>Nr telefonu</th>
+                <th>Pin</th>
+            </tr>
+
+            {% for mityng in object_list %}
+                <tr>
+                    <td>{{ mityng.miasto }}</td>
+                    <td>{{ mityng.dzien_tygodnia }}</td>
+                    <td>{{ mityng.godzina }}:{{ mityng.minuta }}</td>
+                    <td>{{ mityng.nr_telefonu }}</td>
+                    <td>{{ mityng.pin }}</td>
+                </tr>
+            {% endfor %}
+
+        </table>
+    </body>
+</html>

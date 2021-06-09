@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from mityngi.views import MityngListView
+
 urlpatterns = [
+    path('', MityngListView.as_view()),
     path('admin/', admin.site.urls),
 ]
