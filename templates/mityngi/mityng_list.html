@@ -18,7 +18,7 @@
                 <tr>
                     <td>{{ mityng.miasto }}</td>
                     <td>{{ mityng.dzien_tygodnia }}</td>
-                    <td>{{ mityng.godzina }}:{{ mityng.minuta }}</td>
+                    <td>{{ mityng.godzina|stringformat:"02d" }}:{{ mityng.minuta|stringformat:"02d" }}</td>
                     <td>{{ mityng.nr_telefonu }}</td>
                     <td>{{ mityng.pin }}</td>
                 </tr>
