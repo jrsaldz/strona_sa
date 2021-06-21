@@ -1,6 +1,6 @@
 # strona_sa
 
-## utworznie i aktywowanie środowiska wirtualnego oraz zainstalowanie pakietów
+## utworzenie i aktywowanie środowiska wirtualnego oraz zainstalowanie pakietów
 
 ```bash
 python3 -m venv srodowisko
