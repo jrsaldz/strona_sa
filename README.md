@@ -3,4 +3,4 @@
 Commands: <br>
 python3 -m venv srodowisko <br>
 source srodowisko/bin/activate <br>
-pip install django
+pip install -r requirements.txt
